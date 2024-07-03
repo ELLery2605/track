@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<body>
+ <style>
+   body { 
+    background-color: violet;}
+
+ </style>
+<p><label>username:<br> <input type= "text"value ><p></label></br>
+<p><label>password:<br><input type= "text"value><p></label></br>
+
+<p>SELECT GENDER</p>
+<input type="radio"value="male">male <br>
+<input type="radio"value="female">female<br>
+
+<p>SELECT SUBJECTS</p></br>
+<br><input type="radio"value="english">english
+<br><input type="radio"value="kiswahili">kiswahili
+<fieldset><label>Description:</label><br></fieldset></br>
+
+    <p>YOU CAN ONLY APPLY ONCE IN  OUR PORTAL </p>
+    <P>Main duties and responsibilities:</P>
+
+    <ul>
+       <li> accurately log all service desk tickets</li>
+       <li>follow standard  service desk operating procedures</li>
+    </ul>
+
+    <p>CHOOSE ONE</p>
+    <input type = "radio"value="restart">restart
+    <input type="radio"value="submit">submit
+
+<style>
+input[type=text], select {
+  width: 20%;
+  padding: 20px;
+  margin: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 0%;
+  background-color: #b3e4b5;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+
+<h3>Using CSS to style an HTML Form</h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+</body>
+</html>
+

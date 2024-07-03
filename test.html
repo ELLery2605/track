@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    
+    body{
+        background-color: aqua;
+    }
+img {
+  width: 0% ;
+  padding-right : 80px;
+  height : 50px;
+  background-position : center ;
+  margin-left : 400px;
+  
+}
+h1{
+    color: blue;
+    text-align: center;
+    font-size: 700%;
+
+}
+
+h2 {
+    color: darkmagenta;
+
+
+}
+p{
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+form{
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input [type="date"] {
+            padding: 8px;
+            font-size: 16px;
+        }
+        button {
+            background-color:blue;
+            color: white;
+        }
+        button:hover {
+            background-color: red;
+        }
+        #formattedDate {
+            margin-top: 20px;
+            font-size: 18px;
+            color: cadetblue;
+        }
+
+
+
+</style>
+</head>
+<body><div>
+    <h1>THE BITS CARE CENTRE</h1>
+        <img src="pic/img1.jpg" alt="HTML5 Icon" width="400" height="400">
+    <p>Welcome to bits care centre</p>
+    <p> "Health is one of the most important aspects of our lives, 
+        influencing every dimension of our well-being. 
+        A balanced diet, regular exercise, and adequate sleep are fundamental
+        to maintaining good health.";</p>
+
+    <p> "Mental health is equally vital and encompasses our emotional, 
+        psychological, and social well-being. It affects how we think, feel, 
+        and act as we cope with life.";</p>
+
+    <p>"Preventive healthcare is a proactive approach to maintaining health and 
+        preventing diseases. Health education and awareness are crucial in empowering people 
+        to make informed decisions about their well-being.";</p>
+
+        <h2>BOOK VISIT!!</h2>
+        <h3>Login</h3>
+        <form action="connect.php"method="POST">
+        <label for="county">County:</label>
+        <select id="county" name="county" required>
+            <option value="Kisii">Kisii</option>
+            <option value="busia">Busia</option>
+            <option value="kiambu">Kiambu</option>
+            <option value="meru">Meru</option>
+            <option value="narok">Narok</option>
+            <option value="other">Other</option>
+        </select>
+       
+        <div>
+            <label for="email">email:</label>
+            <input type="text" id="email" name="email" required>
+        </div>
+            <div>
+                <h2> Username</h2>
+                <label for="username">username:</label>
+            <input type="text" id="username" name="username" required>
+            </div>
+            <div>
+                <br>
+            <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            </div>
+
+<h2> Gender</h2>
+<form action="/submit-gender" method="post">
+<label>
+ <input type="radio" name="gender" value="male">
+  Male
+</label>
+<label>
+ <input type="radio" name="gender" value="female">
+  Female
+  <form action="/submit_form" method="post">
+
+    <label for="age">Age</label>
+    <input type="number" id="age" name="age" required>
+
+    <label for="department">Department:</label>
+    <select id="department" name="department" required>
+        <option value="general_medicine">General Medicine</option>
+        <option value="pediatrics">Pediatrics</option>
+        <option value="orthopedics">Orthopedics</option>
+        <option value="cardiology">Cardiology</option>
+        <option value="dermatology">Dermatology</option>
+        <option value="other">Other</option>
+    </select>
+
+    <h2> Appointment Date</h2>
+    
+    <label for="date"></label>
+    <input type="date" id="date" name="date" required>
+
+    
+        <button type="submit">Submit</button>
+    </form>
+    
+
+ 
